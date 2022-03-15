@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 success
+ *Return: Always 0 success
  *
  */
 int main(void)
@@ -14,10 +14,8 @@ int main(void)
 	for (i = 0; i < 8; i++)
 	{
 		_putchar(c[i]);
-	
 	}
 	_putchar('\n');
 
 	return (0);
 }
-
