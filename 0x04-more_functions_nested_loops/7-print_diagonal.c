@@ -1,15 +1,30 @@
 #include "main.h"
 
 /**
- * main - check the code for alx students
- *
- * Return: Always 0.
+ * print_diagonal - check for a digit
+ * @n : number of \\ to be printed
+ * Return:void
  */
-int main(void)
+
+void print_diagonal(int n)
 {
-	print_diagonal(0);
-	print_diagonal(2);
-	print_diagonal(10);
-	print_diagonal(-4);
-	return (0);
+
+	int i = 0, ii;
+
+	while (i < n && n > 0)
+	{
+		ii = 0;
+		while (ii < i)
+		{
+			_putchar(' ');
+			ii++;
+		}
+
+		_putchar('\\');
+		_putchar('\n');
+		i++;
+	}
+	if (i == 0)
+		_putchar('\n');
+
 }
