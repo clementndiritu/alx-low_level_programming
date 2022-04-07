@@ -1,8 +1,9 @@
 /*
  * File: 101-mul.c
+ * Author: Ukonu, Divine Chisom
  */
 
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -82,6 +83,7 @@ int onlyNumbers(char *c)
 	}
 	return (1);
 }
+
 /**
  * _strlen - returns the length of a string
  * @s: string s
