@@ -1,6 +1,5 @@
 /*
  * File: 101-mul.c
- * Author: Ukonu, Divine Chisom
  */
 
 #include "main.h"
