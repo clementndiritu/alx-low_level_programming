@@ -1,5 +1,6 @@
 /*
  * File: 1-array_iterator.c
+ * Author: Ukonu Divine Chisom
  */
 
 #include "function_pointers.h"
@@ -15,7 +16,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 
 	if (action && array)
-		if (action && array)
+		while (size--)
 			action(*(array++));
 
 }
